@@ -31,13 +31,6 @@
 
 -keepattributes *Annotation*
 
-# Preserve all public classes, and their public and protected fields and
-# methods.
-
--keep public class * {
-    public protected *;
-}
-
 # Preserve all .class method names.
 
 -keepclassmembernames class * {
